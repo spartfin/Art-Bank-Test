@@ -104,6 +104,7 @@ header {
 }
 
 .content__contract {
+  position: relative;
   display: flex;
   min-height: 200px;
   padding: 20px;
@@ -117,7 +118,7 @@ header {
   width: 100%;
   border: 1px solid gray;
   padding: 15px 5px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .content__contract_info p {
@@ -130,16 +131,20 @@ header {
   opacity: 0;
 }
 
-.content__contract_info button {
+.content__button {
+  position: absolute;
   margin: 0 auto;
   margin-top: auto;
   width: max-content;
   height: auto;
   padding: 2px 5px;
   font-weight: 700;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 50%;
 }
 
-.content__contract_info button:hover {
+.content__button:hover {
   opacity: 0.5;
 }
 
