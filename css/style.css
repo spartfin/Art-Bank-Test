@@ -127,7 +127,7 @@ header {
   font-weight: 400;
 }
 
-.content__contract_info p:nth-child(4) {
+.content__contract_info p:last-child {
   opacity: 0;
 }
 
